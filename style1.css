@@ -17,10 +17,14 @@
 #headng h1{
     display:inline-block;
 }
+.head{
+    padding-left: 15px;
+}
 .main{
     background-color: rgba(199, 200, 199, 0.355);
     border-radius:9px;
-    padding-left:15px;
+    /* padding-left:15px; */
+    
     margin:8px;
     width:460px;
     display: inline-block;
@@ -33,8 +37,16 @@
 .main div h3{
     display: inline-block;
 }
-.main:hover{
-   background-color: rgb(222, 254, 192);
-   transition-delay: 0.1s;
 
+.buybutton{
+    background-color:rgb(62, 187, 250);
+    border-radius: 3px;
+    color: beige;
+    padding: 20px 181px;
+    font-size:x-large;
+    border-color: transparent;
+}
+.buybutton:hover{
+    background-color:rgb(8, 166, 246) ;
+    transition-duration: 0.2s;
 }
